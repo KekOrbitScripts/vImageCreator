@@ -3,7 +3,7 @@ Config = {}
 Config.imgbbAPI = "" -- https://api.imgbb.com/
 Config.save = 'json' -- kvp, json
 Config.vehicle_table = 'vehicles' -- vehicle table must have model column (name not hash)
-Config.useSQLvehicle = true -- use mysql async to fetch vehicle table else SqlVehicleTable will use
+Config.useSQLvehicle = false -- use mysql async to fetch vehicle table else SqlVehicleTable will use
 Config.SqlVehicleTable = QBCore and QBCore.Shared and QBCore.Shared.Vehicles and QBCore.Shared.Vehicles or {} -- example qbcore shared vehicle
 
 -- Custom Category
